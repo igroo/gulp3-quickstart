@@ -1,0 +1,39 @@
+{
+  "name": "gulp3-quickstart",
+  "version": "1.0.0",
+  "description": "gulp3 quickstart",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server -c gulp-bs-config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igroo/gulp3-quickstart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MiT",
+  "bugs": {
+    "url": "https://github.com/igroo/gulp3-quickstart/issues"
+  },
+  "homepage": "https://github.com/igroo/gulp3-quickstart#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
